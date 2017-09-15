@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="10dp"
+        android:text="GPS" />
+n
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="56dp"
+        android:layout_y="239dp"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="176dp"
+        android:layout_y="239dp"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="56dp"
+        android:layout_y="289dp"
+        android:text="@string/modify" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="176dp"
+        android:layout_y="289dp"
+        android:text="@string/view" />
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="56dp"
+        android:layout_y="339dp"
+        android:text="@string/view_all" />
+
+    <Button
+        android:id="@+id/btnShowInfo"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="176dp"
+        android:layout_y="339dp"
+        android:text="@string/show_info" />
+
+    <EditText
+        android:id="@+id/editID"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="152dp"
+        android:layout_y="38dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="38dp"
+        android:text="Entre com ID:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="88dp"
+        android:text="Entre com Referencia:" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="152dp"
+        android:layout_y="88dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="138dp"
+        android:text="Entre com Long:" />
+
+    <EditText
+        android:id="@+id/editLong"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="152dp"
+        android:layout_y="138dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="184dp"
+        android:text="@string/lat"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/editLat"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="184dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</AbsoluteLayout>

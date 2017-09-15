@@ -1,0 +1,14 @@
+package Exerc1;
+public class Principal {
+    public static void main(String[] args){
+        Param_ param = new Param_(1,2,"10"); 
+        Protocolo pacote1 = new Protocolo ("AA:AA:AA:AA", "00:00:00:00", 90 ,1 ,2 ,1 ,0 ,param);
+        Protocolo pacote2 = new Protocolo ("11:11:11:11", "AA:AA:AA:AA", 80 ,1 ,2 ,1 ,0 ,param);
+        Protocolo pacote3 = new Protocolo ("11:11:11:11", "AA:AA:AA:AA", 80 ,1 ,2 ,1 ,0 ,param);
+        Protocolo pacote4 = new Protocolo ("AA:AA:AA:AA", "11:11:11:11", 90 ,1 ,2 ,1 ,0 ,param);
+        
+        
+        
+        System.out.println(pacote1.serializar());
+    }
+}

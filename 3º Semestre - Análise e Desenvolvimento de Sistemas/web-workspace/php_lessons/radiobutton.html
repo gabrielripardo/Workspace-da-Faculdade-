@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just one Option</title>
+</head>
+<body>
+	<form action="actionradio.php" method="POST">
+		<label> <input type="radio" name="avaliation" value="best"> Low </label><br>
+		<label> <input type="radio" name="avaliation" value="medium"> Medium </label><br>
+		<label> <input type="radio" name="avaliation" value="worst"> Worst </label><br>
+		<input type="submit" name="submit"/>
+	</form>
+	<?php
+		if(isset($_POST['submit'])){
+			if(isset($_POST['avaliation']))
+		}
+	?>
+</body>
+</html>

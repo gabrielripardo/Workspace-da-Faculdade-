@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=objCliente
+comment0.target=void\ setCliente(Cliente)
+comment1.params=
+comment1.target=Cliente\ getCliente()
+comment2.params=valor
+comment2.target=void\ sacar(double)
+comment3.params=valor
+comment3.target=void\ depositar(double)
+comment4.params=numero
+comment4.target=void\ setNumero(int)
+comment5.params=
+comment5.target=int\ getNumero()
+comment6.params=
+comment6.target=double\ getSaldo()
+comment7.params=saldo
+comment7.target=void\ setSaldo(double)
+comment8.params=
+comment8.target=void\ consultarSaldo()
+comment9.params=
+comment9.target=void\ imprimirExtrato()
+numComments=10

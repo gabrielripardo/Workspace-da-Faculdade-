@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=juros
+comment0.target=void\ setJuros(double)
+comment1.params=
+comment1.target=double\ getJuros()
+comment2.params=
+comment2.target=void\ aplicarRendimento()
+comment3.params=
+comment3.target=void\ imprimirExtrato()
+numComments=4

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.br.temperatures.v3.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira a temperatura em Kelvin:" />
+
+    <EditText
+        android:id="@+id/_Kelv"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter para:" />
+
+    <RadioGroup
+        android:id="@+id/_Escalas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/_Celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Celsius" />
+
+        <RadioButton
+            android:id="@+id/_Farenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farenheit" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/_Conv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter" />
+
+    <TextView
+        android:id="@+id/_Rsl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.65"
+        android:gravity="center"
+        android:text="="
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="bottom|center"
+        android:text="Desenvolved by Gabriel \n Copyleft v1.3" />
+
+</LinearLayout>

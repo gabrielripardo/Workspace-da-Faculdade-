@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=nome\ tamanho
+comment0.target=Cachorro(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ latir()
+comment2.params=
+comment2.target=void\ morder()
+numComments=3

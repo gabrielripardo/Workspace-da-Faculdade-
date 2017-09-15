@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dfbusitinerary.developer.com.dfbusitinerary" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bus2_48"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContatoActivity"
+            android:label="@string/title_activity_contato" >
+        </activity>
+        <activity
+            android:name=".ItinerarioActivity"
+            android:label="@string/title_activity_itinerario" >
+        </activity>
+        <activity
+            android:name=".InformacoesActivity"
+            android:label="@string/title_activity_informacoes" >
+        </activity>
+        <activity
+            android:name=".ServicosActivity"
+            android:label="@string/title_activity_servicos" >
+        </activity>
+        <activity
+            android:name=".ListaTarefasActivity"
+            android:label="@string/title_activity_lista_tarefas" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MinhasAnotacoesActivity"
+            android:label="@string/title_activity_minhas_anotacoes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PioneiraActivity"
+            android:label="@string/title_activity_pioneira" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MarechalActivity"
+            android:label="@string/title_activity_marechal" >
+        </activity>
+        <activity
+            android:name=".SaoJoseActivity"
+            android:label="@string/title_activity_sao_jose" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PiracicabanaActivity"
+            android:label="@string/title_activity_piracicabana" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

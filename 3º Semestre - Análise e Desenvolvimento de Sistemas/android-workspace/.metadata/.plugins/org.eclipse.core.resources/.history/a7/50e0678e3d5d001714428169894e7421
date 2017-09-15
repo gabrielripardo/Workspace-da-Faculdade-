@@ -1,0 +1,86 @@
+package Exerc1;
+
+
+public class Protocolo {
+	String H_MAC;
+	String H_MAC_DES;
+	int H_BATERIA;
+	int H_STATUS;
+	int H_TIPO_PACOTE;
+	int H_QTE_PARAM;
+	int H_TIPO_SENSOR;
+	Param_ B_DATA_LIST;
+	
+    public Protocolo(String h_MAC, String h_MAC_DES, int h_BATERIA,
+            int h_STATUS, int h_TIPO_PACOTE, int h_QTE_PARAM,
+            int h_TIPO_SENSOR, Param_ b_DATA_LIST)
+    {
+		//super();
+		H_MAC = h_MAC;
+		H_MAC_DES = h_MAC_DES;
+		H_BATERIA = h_BATERIA;
+		H_STATUS = h_STATUS;
+		H_TIPO_PACOTE = h_TIPO_PACOTE;
+		H_QTE_PARAM = h_QTE_PARAM;
+		H_TIPO_SENSOR = h_TIPO_SENSOR;
+		B_DATA_LIST = b_DATA_LIST;
+    }
+    
+
+	// Método de serialização
+    String serializar()
+    {
+        String pacote = "";
+        pacote += H_MAC +H_MAC_DES;
+       
+        if (H_BATERIA<10)       
+            pacote +="0";   
+        pacote += Integer.toString (H_BATERIA);
+       
+        if (H_STATUS<10)       
+            pacote +="0";   
+        pacote += Integer.toString (H_STATUS);
+           
+        if (H_TIPO_PACOTE<10)       
+            pacote +="0";   
+        pacote += Integer.toString (H_TIPO_PACOTE);
+       
+        pacote += Integer.toString (H_QTE_PARAM);
+        pacote += Integer.toString (H_TIPO_SENSOR);
+        pacote += Integer.toString (B_DATA_LIST.getTipo());
+        pacote += Integer.toString (B_DATA_LIST.getSize());
+        pacote += B_DATA_LIST.getValue();
+        return pacote;
+    }
+    
+    void deSerializar(String Pacote){
+        //00:00:00:0100:00:00:02800102101210
+        //00:00:00:0100:00:00:028012101210
+       
+        //00:00:00:01     00:00:00:02    80    01   2   1   0      1 2 10
+       
+       
+        H_MAC = Pacote.substring(0, 11); //MAC:00:00:00:FF
+        H_MAC_DES = Pacote.substring(12, 23);
+        H_BATERIA = Integer.parseInt(Pacote.substring(23, 24));
+        H_STATUS = Integer.parseInt(Pacote.substring(24, 25));
+        H_TIPO_PACOTE = Integer.parseInt(Pacote.substring(25, 26));
+        H_QTE_PARAM = Integer.parseInt(Pacote.substring(26, 27));
+        H_TIPO_SENSOR = Integer.parseInt(Pacote.substring(27, 28));
+       
+        B_DATA_LIST.setTipo(Integer.parseInt(Pacote.substring(28, 29)));
+        B_DATA_LIST.setSize(Integer.parseInt(Pacote.substring(29, 30)));
+        B_DATA_LIST.setValue(Pacote.substring(30, 31));
+       
+        Param_ B_DATA_LIST;
+    }
+}
+
+class Dispositivo{
+    String MAC;
+    int tipo;
+    int dado;
+    Protocolo protocolo;   
+}
+
+

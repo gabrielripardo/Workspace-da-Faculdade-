@@ -1,0 +1,42 @@
+#logo{
+	background-color: green;
+	font-family: times;
+	font-size: 10px ; 
+	text-align: center;
+	color: white; 
+	padding: 10px;
+}#menu{
+	z-index: 2; 
+	height: 100%; 
+	position: absolute;
+	font-family: Times;
+	font-size: 20px;
+	border-right: 2px solid gray;
+}.menucolor{
+	color: #e1c18f;
+}.menusize{
+	text-align: center;
+	background: #cf7177;
+	color:green;
+	margin-right: 20px;
+}#text{
+	z-index: 1;
+	height: 100%;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 1%;
+	border-left: 40%;
+	text-orientation: right;
+	background: #F2EDED;
+}
+#simpsons{
+	float: left;
+	padding: 10px;
+}
+#rodape{
+	color:#777;
+	font-size: 10px;
+	font-family: arial;
+	text-align: right;
+}

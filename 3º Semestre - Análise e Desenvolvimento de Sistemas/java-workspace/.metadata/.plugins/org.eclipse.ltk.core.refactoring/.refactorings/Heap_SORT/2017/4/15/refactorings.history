@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;test.java&apos; to &apos;Gleidson-exercicio/src/Biblioteca&apos;&#x0A;- Original project: &apos;Heap_SORT&apos;&#x0A;- Destination element: &apos;Gleidson-exercicio/src/Biblioteca&apos;&#x0A;- Original element: &apos;test.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Gleidson-exercicio/src&lt;Biblioteca" element1="/src&lt;{test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1492032521059" units="1" version="1.0"/>
+</session>

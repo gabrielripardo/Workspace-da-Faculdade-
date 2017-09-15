@@ -1,0 +1,67 @@
+<!DOCTPYE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+			var nomeAluno;
+			nomeAluno = "joao";
+			nota1 = 8.5;
+			nota2 = 7.5;
+			media = (nota1 + nota2)/2;
+			frequency = 75;
+
+			document.write("Nome: " + nomeAluno);
+			document.write("<br> Nota 1: " + nota1);
+			document.write("<br> Nota 2: " + nota2);
+			document.write("<br> Nota 1" + nota1 + " e Nota 2: " + nota2);
+			document.write("<br> Média: " + media);
+		
+			// Utilizando arrays
+
+			var vDisc = new Array("lpw1", "pdf", "lpw2");
+
+			document.write("<br> Disciplina: " + vDisc[0]);
+			document.write("<br> Total de Disciplinas " + vDisc.length);
+		
+			
+			document.write("<br> Nome das Disciplinas: " + vDisc.join());	
+			document.write("<br> Disciplinas Ordenadas: " + vDisc.sort());
+
+
+			// Operadores Aritméticos
+			//	+ adição
+			//	- subtração
+			//	* multiplicação
+			//	/ divisão
+			//	% resto da divisão
+			//	++ ou i = i + 1 incremento
+			//	-- ou i = i - 1 decremento
+
+			// Operadores Lógicos e de comparação
+
+			// ! negação
+			// & and - verdadeiro se A e B forem verdadeiros
+			// || (pipe) or - verdadeiro se A ou B forem verdadeiros
+			// == igual - verdadeiro se A for igual a B
+			// 
+
+			if(media >= 7){
+				document.write("<br> Parabéns, você foi Aprovado!");
+
+			}else {
+				document.write("<br> Reprovado com a média: " + media)
+			}
+
+			if(media >= 7 && frequency <= 75){
+				document.write("<br> Parabéns, você foi Aprovado!");
+
+			}else {
+				document.write("<br> Reprovado com a média: " + media)
+			}
+		</script>	
+	</head>
+	<body>
+		<h1 align="center"> meu teste </h1>
+
+	</body>
+</html>

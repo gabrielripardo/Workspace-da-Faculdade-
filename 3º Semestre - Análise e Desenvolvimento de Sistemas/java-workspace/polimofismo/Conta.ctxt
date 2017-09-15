@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=valor
+comment0.target=void\ sacar(double)
+comment1.params=valor
+comment1.target=void\ depositar(double)
+comment2.params=numero
+comment2.target=void\ setNumero(int)
+comment3.params=
+comment3.target=int\ getNumero()
+comment4.params=
+comment4.target=double\ getSaldo()
+comment5.params=saldo
+comment5.target=void\ setSaldo(double)
+comment6.params=
+comment6.target=void\ consultarSaldo()
+numComments=7

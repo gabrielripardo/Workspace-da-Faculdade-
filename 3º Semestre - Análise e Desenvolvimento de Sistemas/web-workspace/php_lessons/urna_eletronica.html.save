@@ -1,0 +1,15 @@
+	<html>
+<head>
+	<meta charset="utf-8">
+	<title> Vota ou não vota</title>
+
+</head>
+<body>
+	<h3> Urna Eletrônica </h3> <br>
+	<div>
+		<form action="conditions_urna.php" method="get">
+			<input id="year" type="text" placeholder="Digite o ano de seu nascimento"> 
+			<button type="submit" value="enviar"> Verificar </button>
+	</div>	
+</body>
+</html>

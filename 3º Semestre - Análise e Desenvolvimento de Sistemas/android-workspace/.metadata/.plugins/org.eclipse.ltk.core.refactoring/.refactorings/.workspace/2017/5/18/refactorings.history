@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Kelvin_temp.v1.2&apos; to &apos;Kelvin_temp.v2&apos;&#x0A;- Original element: &apos;Kelvin_temp.v1.2&apos;&#x0A;- Renamed element: &apos;Kelvin_temp.v1.2&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Kelvin_temp.v1.2&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Kelvin_temp.v1.2" name="Kelvin_temp.v2" references="true" stamp="1493880506068" version="1.0"/>
+</session>

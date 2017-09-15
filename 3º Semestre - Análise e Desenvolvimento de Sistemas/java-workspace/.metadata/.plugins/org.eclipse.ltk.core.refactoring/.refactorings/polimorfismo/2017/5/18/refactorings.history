@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;prova_questoes.Conta&apos; to &apos;SobreescritaConta&apos;&#x0A;- Original project: &apos;polimorfismo&apos;&#x0A;- Original element: &apos;prova_questoes.Conta&apos;&#x0A;- Renamed element: &apos;prova_questoes.SobreescritaConta&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Conta&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;prova_questoes{Conta.java[Conta" matchStrategy="1" name="SobreescritaConta" qualified="false" references="true" similarDeclarations="false" stamp="1493856113905" textual="false" version="1.0"/>
+</session>

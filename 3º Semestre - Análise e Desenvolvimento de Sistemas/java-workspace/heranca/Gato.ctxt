@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=nome\ corPelo
+comment0.target=Gato(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=Gato()
+comment2.params=
+comment2.target=void\ miar()
+comment3.params=
+comment3.target=void\ dormir()
+numComments=4

@@ -1,0 +1,17 @@
+package Exerc1;
+
+public class Principal {
+    public static void main(String[] args){
+        
+        Protocolo p = new Protocolo ("00:00:00:01", "00:00:00:02",80, 1,2,1);
+        
+        String text = "test";
+        Param param = new Param(1, text.length(), text);
+        p.AddParam(param); 
+
+        System.out.println(p.Serializar());
+        p.DeSerializar(p.Serializar());
+        System.out.println(p.Serializar());
+        
+    }
+}

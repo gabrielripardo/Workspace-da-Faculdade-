@@ -1,0 +1,6 @@
+design.palette.flyout.width=228
+eclipse.preferences.version=1
+org.eclipse.andmore.autoPickTarget=false
+org.eclipse.andmore.fixLegacyEditors=1
+org.eclipse.andmore.palette=SMALL_PREVIEW,nocat
+org.eclipse.andmore.sdk=/home/portable/\u00C1rea de Trabalho/Eclipse - Android/android-sdk-linux

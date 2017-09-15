@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dfbusitinerary.developer.com.dfbusitinerary.InformacoesActivity"
+    android:background="@drawable/quem_somos_fundo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/quem_somos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quem somos"
+        android:id="@+id/textView9"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginTop="46dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="#ebebeb" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Seja muito bem-vindo ao nosso app. Somos acadêmicos do curso de BSI - Bacharelado em Sistemas de Informação pela Faculdade JK - Unidade Santa Maria. Desenvolvemos esse aplicativo como parte integrante final da disciplina: Programação para Dispositivos Móveis sob tutoria do Prof. Eduardo Borges. Equipe de desenvolvedres: Tadeu Espíndola Palermo, Wagner Alves, Dériu Matheus e Gabriel Ripardo Senna. Esperamos ajudá-los na busca pelos horários de ônibus do Distrito Federal. Para maiores informações, consulte a opção de contatos! Obrigado.  "
+            android:id="@+id/textView13"
+            android:background="#4e89869e"
+            android:textStyle="bold|italic" />
+    </ScrollView>
+
+</RelativeLayout>

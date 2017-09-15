@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title> Frete </title>
+	<script>
+		function valorFrete (produto){
+			total = 10 + produto;
+		return total;
+		}
+		document.write(valorFrete(500));
+
+		function funcPrint(){
+			document.write("Teste, teste, função sem retorno");
+		}
+
+		funcPrint();
+	</script>
+</head>
+<body>
+	<h3> Desafio: </h3>
+	<p> O valor do frete é R$ 10,00. Faça uma função <br>
+		que receba o valor de um produto, e retorne a soma <br>
+		do frete mais o valor do produto.
+	</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Alunos</title>
+	<script>
+		// Description: On the script was described four estructures and 
+		// how to use "Array", the "while", "for" and the "function".
+
+
+		// Using the array object	
+		var alunos = new Array();
+
+		alunos[0] = "Michelle";
+		alunos[1] = "Juliana";
+		alunos[2] = "Mariana";
+
+		var vNota1 = new Array(5.6, 10, 7.5);
+		var vNota2 = new Array(7.5, 9.4, 8,5)
+
+
+		// Using the while - Repetition struct 
+		var i = 0;
+		while(i<3){
+			document.write("<br>aluno " +i+ ": "+alunos[i]);
+			i++;
+		}
+
+		document.write("<br><br>");
+		// Using the for - Repetition struct
+		for(i = 0; i < alunos.length; i++){
+			var media = (vNota1[i] + vNota2[i])/2;
+			document.write("<br>Aluno: " + alunos[i] + " Media: " + media);
+		}
+
+		document.write("<br><br>");
+		// Using functions
+
+		function funcMedia (n1, n2){
+			var media = (n1 + n2)/2;
+			return media;
+		}
+
+		for(i = 0; i < alunos.length; i++){
+			var final = funcMedia(vNota1[i], vNota2[i]);
+			document.write("<br>function Aluno: " + alunos[i] + " Media: " + final);
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>

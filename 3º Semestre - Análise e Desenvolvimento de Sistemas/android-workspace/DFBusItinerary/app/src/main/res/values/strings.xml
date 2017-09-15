@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DF Bus Itinerary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contato">Contato</string>
+    <string name="title_activity_itinerario">Itinerário</string>
+    <string name="title_activity_informacoes">Informações</string>
+    <string name="title_activity_servicos">Serviços</string>
+    <string name="title_activity_lista_tarefas">Serviços - Lista de Tarefas</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="title_activity_minhas_anotacoes">Serviços - Minhas Anotações</string>
+    <string name="title_activity_pioneira">Itinerário Pioneira</string>
+    <string name="title_activity_marechal">Itinerário Marechal</string>
+    <string name="title_activity_sao_jose">Itinerário São José</string>
+    <string name="title_activity_piracicabana">Itinerário Piracicabana</string>
+</resources>

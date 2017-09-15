@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RastrerApp!</string>
+    <string name="app_name">RastrerApp</string>
+    <string name="title">Rastrer Detalhes</string>
+    <string name="roll_no">Entre ID: </string>
+    <string name="name">Entre Referencia: </string>
+    <string name="marks">Entre Longitude: </string>
+    <string name="add">Novo</string>
+    <string name="delete">Apagar</string>
+    <string name="modify">Modificar</string>
+    <string name="view">Ver</string>
+    <string name="view_all">Ver Tudo</string>
+    <string name="show_info">Mostrar Tudo</string>
+    <string name="lat">Entre com Lat:</string>
+</resources>

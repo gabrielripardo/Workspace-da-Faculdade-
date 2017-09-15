@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;CheckBox&apos; into R.string.checkbox" description="Extracts string &apos;CheckBox&apos; into R.string.checkbox" file="/BroadcastReceiverNewSms/res/layout/androidexample_broadcast_newsms.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/BroadcastReceiverNewSms" rplc-all-java="false" rplc-all-xml="false" sel-end="1263" sel-start="1241" stamp="1489627957567" tok-esc="CheckBox" xml-attr-name="android:text"/>
+</session>
